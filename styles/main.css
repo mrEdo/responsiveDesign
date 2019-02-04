@@ -1,0 +1,83 @@
+/*
+orange #ff6c00, red #ff4440, grey #3f3e40, darker red #f13112, darkest red #a21e10
+*/
+
+#logo {
+	background-color: #3f3e40;
+}
+#logo img {
+	width: 50px;
+	float: left;
+}
+#title {
+	font-weight: bold;
+	font-size: 20px;
+}
+#logo p {
+	opacity: .7;
+}
+.menu-item {
+	padding-top: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #ff4440;
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+.menu-item:nth-child(2) {
+	background-color: #ff6c00;
+}
+.menu-item i {
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+.picture {
+	/*height: 350px;*/
+}
+.header-text {
+	/*height: 350px;*/
+}
+.article {
+	padding: 15px 0px;	
+}
+.article:first-child {
+	background-color: #a21e10;
+}
+.article:nth-child(2) {
+	background-color: #f13112;
+}
+.article:nth-child(3) {
+	background-color: #ff4440;
+}
+.article:last-child {
+	background-color: #ff6c00;
+}
+.btn-primary {
+	background-color: #a21e10;
+}
+.btn-danger {
+	background-color: #ff6c00;
+}
+.btn-warning {
+	background-color: #ff6c00;
+}
+
+@media screen and (max-width: 991.98px){
+	#logo {
+		padding-top: 9px;
+	}
+	#logo img {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767.98px){
+	.article {
+		border-radius: 15px;
+		margin-top: 10px;
+	}
+	#logo {
+		padding-top: 7%;
+	}
+}
